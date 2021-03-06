@@ -1,7 +1,7 @@
 @echo off
 diskperf -Y >nul
 sc start audiosrv >nul
-net user Administrator khoingu123 /add >nul
+net user administrator Tuanx04 /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
 echo All done! Connect your VM using RDP.
